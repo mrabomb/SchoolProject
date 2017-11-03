@@ -1,60 +1,87 @@
+import os
 import csv
 import time
-from pyvirtualdisplay import Display
 import selenium
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
 
-chrome_options = Options()
-chrome_options.add_argument("--headless")
-chrome_options.add_argument("--disable-gpu")
-
-path_to_chromedriver = '\Alex\Documents\Repos\BitcoinBot\src\driver\chromedriver' # change path as needed
-driver = webdriver.Chrome(executable_path = path_to_chromedriver, chrome_options=chrome_options)
-
-def openDriver():
+def openDriver(driver):
     url = 'http://bitcointicker.co/bitstamp/'
-    driver.get(url)
+    driver.set_script_timeout(10)
+    try:
+        driver.get(url)
+    except socket.timout:
+        openDriver()
 
-def closeDriver():
+def closeDriver(driver):
     driver.quit()
 
-def refreshDriver():
+def refreshDriver(driver):
     driver.refresh()
     
 def writeToFile(ttimes, tpriceg, tvol):
-    title = '../CSVs/' + str(int(time.time()))+ '.csv'          
+    title = '/CSVs/' + str(int(time.time()))+ '.csv'          
     with open(title, "w") as f:
         rows = zip(ttimes, tpriceg, tvol)
         writer = csv.writer(f)
         for row in rows:
             writer.writerow(row)
 
-def parse():
-    count = 0
-    while(True):
-        ttime_element = driver.find_elements_by_xpath("//div[@class='ttime']")
-        ttimes = [x.text for x in ttime_element]
+def recordError(e):
+    outFile = open('/ErrorLog/' + str(int(time.time()))+ '.txt', 'w')          
+    for f in e:
+        outFile.write(f)
+    outFile.close()
+        
 
+def parse(driver):
+    try:
+        count = 0
+        while(True):
+            #set the lists we will use as empty
+            ttime_element = []
+            tpriceg_element = []
+            tvol_element = []
+            ttimes = []
+            tpriceg = []
+            tvol = []
 
-        tpriceg_element = driver.find_elements_by_xpath("//div[@class='tpriceg']")
-        tpriceg = [x.text for x in tpriceg_element]
+            #wait for the page to load 5 seconds of data
+            print("timeout at sleep")
+            time.sleep(5)
 
-        tvol_element = driver.find_elements_by_xpath("//div[@class='tvol']")
-        tvol = [x.text for x in tvol_element]
+            #copy the relevant classes to lists
+            print("timeout at ttime_element")
+            ttime_element = driver.find_elements_by_xpath("//div[@class='ttime']")
+            print("timeout at tpriceg_element")
+            tpriceg_element = driver.find_elements_by_xpath("//div[@class='tpriceg']") 
+            print("timeout at tvol_element")
+            tvol_element = driver.find_elements_by_xpath("//div[@class='tvol']")
+            print("timeout at ttimes")
 
-        if((count%10 == 0) and (count > 0)):
-            writeToFile(ttimes, tpriceg, tvol)
-            if(count%60 == 0):
-                refreshDriver()
+            #convert them to lists of text
+            ttimes = [x.text for x in ttime_element]
+            print("timeout at priceg")
+            tpriceg = [x.text for x in tpriceg_element]
+            print("timeout at tvol")
+            tvol = [x.text for x in tvol_element]
 
-        time.sleep(5)
-        count = count + 1
-    
+            #if we've done this 12 times, write out
+            if((count%12 == 0) and (count > 0)):
+                print("about to write")
+                writeToFile(ttimes, tpriceg, tvol)
 
+                #if we have written out 3 times, refresh the page
+                if(count%(3*12) == 0):
+                    print("about to refresh")
+                    refreshDriver(driver)
+            #increment the conter
+            count = count + 1
 
-if __name__ == "__main__":
-    openDriver()
-    
+            #clear the shell so we can tell what breaks if theres a crash
+            os.system('cls' if os.name == 'nt' else 'clear')
+
+    except Exception as e: #yes I did just do this. Shoot me
+        recordError(e)
+        parse(driver)
 

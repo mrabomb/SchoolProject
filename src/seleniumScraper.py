@@ -85,3 +85,17 @@ def parse(driver):
         recordError(e)
         parse(driver)
 
+#upon startup do this
+if __name__ == "__main__":
+
+    path_to_chromedriver = ''
+    if os.name == 'nt':
+        path_to_chromedriver = os.getcwd()+'\driver\windows\chromedriver' # change path as needed
+    else:
+        path_to_chromedriver = os.getcwd()+'\driver\linux\chromedriver' # change path as needed
+    driver = webdriver.Chrome(executable_path = path_to_chromedriver)
+    openDriver(driver)
+    parse(driver)
+    closeDriver(driver)
+    
+

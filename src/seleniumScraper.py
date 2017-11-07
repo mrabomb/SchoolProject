@@ -5,6 +5,9 @@ import selenium
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+#custom module
+import config
+
 def openDriver(driver):
     url = 'http://bitcointicker.co/bitstamp/'
     driver.set_script_timeout(10)
@@ -32,7 +35,6 @@ def recordError(e):
     for f in e:
         outFile.write(f)
     outFile.close()
-        
 
 def parse(driver):
     try:
@@ -46,9 +48,14 @@ def parse(driver):
             tpriceg = []
             tvol = []
 
+            #read from config file
+            secondsToWait = int(config.settings['secondsToWait'])
+            populationsBeforeUpdate = int(config.settings['populationsBeforeUpdate'])
+            updatesBeforeRefresh = int(config.settings['updatesBeforeRefresh'])
+
             #wait for the page to load 5 seconds of data
             print("timeout at sleep")
-            time.sleep(5)
+            time.sleep(secondsToWait)
 
             #copy the relevant classes to lists
             print("timeout at ttime_element")
@@ -66,13 +73,13 @@ def parse(driver):
             print("timeout at tvol")
             tvol = [x.text for x in tvol_element]
 
-            #if we've done this 12 times, write out
-            if((count%12 == 0) and (count > 0)):
+            #if we've done this desired number of times, write out
+            if((count%populationsBeforeUpdate == 0) and (count > 0)):
                 print("about to write")
                 writeToFile(ttimes, tpriceg, tvol)
 
-                #if we have written out 3 times, refresh the page
-                if(count%(3*12) == 0):
+                #if we have written out desired number of times, refresh the page
+                if(count%(updatesBeforeRefresh*populationsBeforeUpdate) == 0):
                     print("about to refresh")
                     refreshDriver(driver)
             #increment the conter

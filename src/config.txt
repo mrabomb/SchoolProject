@@ -1,9 +1,0 @@
-
-#The amount of time in seconds to wait for the data to populate
-5
-
-#Number of populations before database update
-6
-
-#Number of database updates before page refresh
-3

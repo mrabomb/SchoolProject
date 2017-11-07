@@ -27,11 +27,10 @@ def writeToFile(ttimes, tpriceg, tvol):
     #we are going to need the date inserted before the timestamp in the first row
     prelimDate = time.strftime("%Y,%m,%d")
     date = prelimDate.replace(",", ":")
-    formattedDate = date + ":"
     
     title = '../CSVs/' + str(int(time.time()))+ '.csv'          
     with open(title, 'w') as f:
-        rows = zip(formattedDate + ttimes, tpriceg, tvol)
+        rows = zip(date, ttimes, tpriceg, tvol)
         writer = csv.writer(f)
         for row in rows:
             writer.writerow(row)

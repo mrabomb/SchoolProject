@@ -7,6 +7,7 @@ from selenium.webdriver.common.by import By
 
 #custom module
 import config
+from CsvConcatonator import *
 
 def openDriver(driver):
     url = 'http://bitcointicker.co/bitstamp/'
@@ -23,15 +24,20 @@ def refreshDriver(driver):
     driver.refresh()
     
 def writeToFile(ttimes, tpriceg, tvol):
-    title = '/CSVs/' + str(int(time.time()))+ '.csv'          
-    with open(title, "w") as f:
-        rows = zip(ttimes, tpriceg, tvol)
+    #we are going to need the date inserted before the timestamp in the first row
+    prelimDate = time.strftime("%Y,%m,%d")
+    date = prelimDate.replace(",", ":")
+    formattedDate = date + ":"
+    
+    title = '../CSVs/' + str(int(time.time()))+ '.csv'          
+    with open(title, 'w') as f:
+        rows = zip(formattedDate + ttimes, tpriceg, tvol)
         writer = csv.writer(f)
         for row in rows:
             writer.writerow(row)
 
 def recordError(e):
-    outFile = open('/ErrorLog/' + str(int(time.time()))+ '.txt', 'w')          
+    outFile = open(('../ErrorLog/' + str(int(time.time()))+ '.txt'), 'w')          
     for f in e:
         outFile.write(f)
     outFile.close()
@@ -77,7 +83,7 @@ def parse(driver):
             if((count%populationsBeforeUpdate == 0) and (count > 0)):
                 print("about to write")
                 writeToFile(ttimes, tpriceg, tvol)
-
+                Concatonate()
                 #if we have written out desired number of times, refresh the page
                 if(count%(updatesBeforeRefresh*populationsBeforeUpdate) == 0):
                     print("about to refresh")

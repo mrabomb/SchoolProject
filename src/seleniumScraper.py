@@ -11,7 +11,7 @@ from CsvConcatonator import *
 
 def openDriver(driver):
     url = 'http://bitcointicker.co/bitstamp/'
-    driver.set_script_timeout(10)
+    driver.set_script_timeout(20)
     try:
         driver.get(url)
     except socket.timout:
@@ -25,24 +25,32 @@ def refreshDriver(driver):
     
 def writeToFile(ttimes, tpriceg, tvol):
     #we are going to need the date inserted before the timestamp in the first row
-    prelimDate = time.strftime("%Y,%m,%d")
-    date = prelimDate.replace(",", ":")
+    date = time.strftime("%Y:%m:%d")
     
-    title = '../CSVs/' + str(int(time.time()))+ '.csv'          
+    title = '../CSVs/' + str(int(time.time()))+ '.csv'
+    dateList = []
+    for x in ttimes:
+        dateList.append(date)
     with open(title, 'w') as f:
-        rows = zip(date, ttimes, tpriceg, tvol)
+        rows = zip(dateList, ttimes, tpriceg, tvol)
         writer = csv.writer(f)
         for row in rows:
             writer.writerow(row)
 
-def recordError(e):
-    outFile = open(('../ErrorLog/' + str(int(time.time()))+ '.txt'), 'w')          
-    for f in e:
-        outFile.write(f)
-    outFile.close()
+def recordError(e, debug):
+    outTime = str(int(time.time()))
+    outFile = open(('../ErrorLog/Errors.txt'), 'a+')
+    outFile.write("\n\n" + outTime)
+    try:
+        for f in e:
+            outFile.write(str(f))
+    except Exception as f:
+        outFile.write(str(e))
+    outFile.write(debug)
 
 def parse(driver):
     try:
+        debug = "file start"
         count = 0
         while(True):
             #set the lists we will use as empty
@@ -58,35 +66,42 @@ def parse(driver):
             populationsBeforeUpdate = int(config.settings['populationsBeforeUpdate'])
             updatesBeforeRefresh = int(config.settings['updatesBeforeRefresh'])
 
-            #wait for the page to load 5 seconds of data
-            print("timeout at sleep")
-            time.sleep(secondsToWait)
+            #wait for the page to load secondsToWait seconds of data
+            debug = "timeout at sleep"
+            i = 0
+            while i < secondsToWait:
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print("Time remaining until next cycle: " + str(int(secondsToWait - i)))
+                time.sleep(1)
+                i = i + 1
 
             #copy the relevant classes to lists
-            print("timeout at ttime_element")
+            debug = "timeout at ttime_element"
             ttime_element = driver.find_elements_by_xpath("//div[@class='ttime']")
-            print("timeout at tpriceg_element")
+            debug = "timeout at tpriceg_element"
             tpriceg_element = driver.find_elements_by_xpath("//div[@class='tpriceg']") 
-            print("timeout at tvol_element")
+            debug = "timeout at tvol_element"
             tvol_element = driver.find_elements_by_xpath("//div[@class='tvol']")
-            print("timeout at ttimes")
+            debug = "timeout at ttimes"
 
             #convert them to lists of text
             ttimes = [x.text for x in ttime_element]
-            print("timeout at priceg")
+            debg = "timeout at priceg"
             tpriceg = [x.text for x in tpriceg_element]
-            print("timeout at tvol")
+            debug = "timeout at tvol"
             tvol = [x.text for x in tvol_element]
 
             #if we've done this desired number of times, write out
             if((count%populationsBeforeUpdate == 0) and (count > 0)):
-                print("about to write")
+                debug = "about to write"
                 writeToFile(ttimes, tpriceg, tvol)
+                debug = "about to concatonate"
                 Concatonate()
                 #if we have written out desired number of times, refresh the page
                 if(count%(updatesBeforeRefresh*populationsBeforeUpdate) == 0):
-                    print("about to refresh")
+                    debug = "about to refresh"
                     refreshDriver(driver)
+                    count = 0
             #increment the conter
             count = count + 1
 
@@ -94,8 +109,16 @@ def parse(driver):
             os.system('cls' if os.name == 'nt' else 'clear')
 
     except Exception as e: #yes I did just do this. Shoot me
-        recordError(e)
-        parse(driver)
+        recordError(e, debug)
+        try:
+            refreshDriver(driver)
+            parse(driver)
+        except Exception as f:
+            debug = "failed to refresh after exception"
+            recordError(f, debug)
+            openDriver(driver)
+            parse(driver)
+        
 
 #upon startup do this
 if __name__ == "__main__":

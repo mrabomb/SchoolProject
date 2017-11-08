@@ -10,9 +10,10 @@ def Concatonate():
 
     outList = outFile.readlines()
     for file in fileList:
+        print(file)
         inFile = open(file,'r')
         for line in inFile:
-            if (line in listLines) or (line in outList) or (line == ''):
+            if (line in listLines) or (line in outList) or (line.isspace()):
                 continue
             else:
                 listLines.append(line)
@@ -22,4 +23,3 @@ def Concatonate():
         outFile.write(x)
     outFile.close()
     os.chdir("../src")
-

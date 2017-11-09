@@ -7,9 +7,11 @@ for line in inFile:
     dataList.append(line)
 
 tempList = dataList
+rowList = []
 for line in tempList:
-    [x.strip() for x in line.split(',')]
-    
+    row = [x.strip() for x in line.split(',')]
+    rowList.append(row)
 
+#sort numerically by second column and then again by first
 
 inFile.close()

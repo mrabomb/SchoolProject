@@ -1,0 +1,855 @@
+
+
+1510113638[Errno 13] Permission denied: 'Output.csv'about to concatonate
+
+1510114101[Errno 13] Permission denied: 'Output.csv'about to concatonate
+
+1510146772Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510152050Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510152227Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510152683Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510157192Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510161152Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510161260Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510161278Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510161313Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510161348Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510161383Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510161422Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510161450Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510161494Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510161537Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510161584Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510161620Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510161667Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510161700Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510161727Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510161761Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510161823Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510161857Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510161911Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510161978Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510162019Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510162055Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510162111Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510162159Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510162206Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510162252Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510162308Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510162361Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510162392Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510162427Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510162470Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510162515Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510162545Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510162590Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510162629Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510162679Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510162714Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510162810Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510162886Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510162992Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510163090Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510163148Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510163234Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510163280Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510163395Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510163450Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510163509Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510163565Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510163664Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510163748Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510163827Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510163973Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510164070Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510164201Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510164357Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510164492Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510164577Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510164624Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510164690Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510164778Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510164876Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510164941Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510165001Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510165028Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510165084Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510165143Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510165198Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510165256Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510165324Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510165380Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510165436Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510165507Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510165593Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510165699Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510165787Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510165863Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510165932Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510165967Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510166048Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510166087Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510166135Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510166162Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510166185Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510166226Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510166263Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510166312Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510166381Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510166416Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510166447Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510166498Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510166530Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510166560Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510166597Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510166634Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510166675Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510166711Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510166754Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510166789Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510166818Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510166857Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510166929Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510166985Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510167041Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510167089Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510167145Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510167220Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510167286Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510167403Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510167632Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510167707Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510167782Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510167820Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510167889Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510167988Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510168127Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510168400Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510168486Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510168586Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510168653Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510168711Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510168787Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510168893Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510168999Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510169256Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510170018Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510170136Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510170275Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510170371Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510170732Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510170892Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510171125Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510171182Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510171281Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510171398Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510171446Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510171570Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510171667Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510171776Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510172064Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510172169Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510172278Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510172532Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510172642Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510173192Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510173318Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510173471Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510173666Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510173793Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510173933Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510174458Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510180533Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510180808Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510180897Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510181132Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510181170Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510181230Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol
+
+1510181440Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510183740Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510184399Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510186155Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510187879Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510188541Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510191329Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510194517Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at ttimes
+
+1510194633Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.16299 x86_64)
+timeout at tvol

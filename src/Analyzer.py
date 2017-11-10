@@ -9,8 +9,9 @@ copyfile('../CSVs/Output.csv', 'fuseFile.csv')
 
 file = 'fuseFile.csv'
 fileToFix = fuseFile(file)
-fileToSort = fixTime(fileToFix)
-sortedFile = sortFile(fileToSort)
+sortedFile = sortFile(fileToFix)
+fixedAndSorted = fixTime(sortedFile)
+
 
 
 '''

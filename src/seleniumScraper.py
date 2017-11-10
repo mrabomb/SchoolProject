@@ -23,19 +23,23 @@ def closeDriver(driver):
 def refreshDriver(driver):
     driver.refresh()
     
-def writeToFile(ttimes, tpriceg, tvol):
+def writeToFile(ttimes, tpriceg, tvol, writeCount):
     #we are going to need the date inserted before the timestamp in the first row
     date = time.strftime("%Y:%m:%d")
     
     title = '../CSVs/' + str(int(time.time()))+ '.csv'
     dateList = []
+    writeCountList = []
     for x in ttimes:
         dateList.append(date)
+        writeCountList.append(writeCount)
     with open(title, 'w') as f:
-        rows = zip(dateList, ttimes, tpriceg, tvol)
+        rows = zip(dateList, ttimes, tpriceg, tvol, writeCountList)
         writer = csv.writer(f)
         for row in rows:
             writer.writerow(row)
+    writeCount = writeCount + 1
+    return writeCount
 
 def recordError(e, debug):
     outTime = str(int(time.time()))
@@ -46,9 +50,9 @@ def recordError(e, debug):
             outFile.write(str(f))
     except Exception as f:
         outFile.write(str(e))
-    outFile.write(debug)
+    outFile.write("\n" + debug)
 
-def parse(driver):
+def parse(driver, writeCount):
     try:
         debug = "file start"
         count = 0
@@ -94,7 +98,7 @@ def parse(driver):
             #if we've done this desired number of times, write out
             if((count%populationsBeforeUpdate == 0) and (count > 0)):
                 debug = "about to write"
-                writeToFile(ttimes, tpriceg, tvol)
+                writeCount = writeToFile(ttimes, tpriceg, tvol, writeCount)
                 debug = "about to concatonate"
                 Concatonate()
                 #if we have written out desired number of times, refresh the page
@@ -112,25 +116,27 @@ def parse(driver):
         recordError(e, debug)
         try:
             refreshDriver(driver)
-            parse(driver)
+            parse(driver, writeCount)
         except Exception as f:
             debug = "failed to refresh after exception"
             recordError(f, debug)
             openDriver(driver)
-            parse(driver)
+            parse(driver, writeCount)
         
 
 #upon startup do this
 if __name__ == "__main__":
-
     path_to_chromedriver = ''
     if os.name == 'nt':
         path_to_chromedriver = os.getcwd()+'\driver\windows\chromedriver' # change path as needed
     else:
         path_to_chromedriver = os.getcwd()+'\driver\linux\chromedriver' # change path as needed
     driver = webdriver.Chrome(executable_path = path_to_chromedriver)
+
+    #int value representing how many times we've written. Helps keep data together
+    writeCount = 0
     openDriver(driver)
-    parse(driver)
+    parse(driver, writeCount)
     closeDriver(driver)
     
 

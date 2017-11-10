@@ -15,7 +15,7 @@ def fuseFile(file):
         writer = csv.writer(tempFile)
         for row in csvreader:
             if len(row)== 4:
-                outRow = [row[0] + ':' + row[1], row[2], row[3]]
+                outRow = [row[0] + ':' + row[1], row[2], row[3], row[4]
                 writer.writerow(outRow)
         csvfile.close()
         tempFile.close()
@@ -32,13 +32,18 @@ def fuseFile(file):
     #return the path to the file that is fused
     return file
 
-'''
+
 def fixTime(inFile):
     #before we sort, the first row needs to be parsed and edited
-    #to make sure that the date is correct
+    #to make sure that the date is correct based on the grouping from the last row
     #(combining computer date and server time is bad)
+
+    #compare the time in col 1 with the group in col 4
+
+    #adjust the day/month/year after comparing it to the boundaries
+
     return(outFile)
-'''
+
 
 def sortFile(file)
     #data is the file with combined col 0 and 1 and properly sorted
@@ -53,7 +58,7 @@ def sortFile(file)
 
     #makes a key to sort with and then sorts
     def getKey(item):
-        return item[0]
+        return item[3]
     tempStorage.sort(key=getKey)
 
     #output sorted data as 'Sorted.csv'

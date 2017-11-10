@@ -9,7 +9,7 @@ errorCount = 0
 print("Relevant Errors:")
 
 for line in file:
-    if "timeout" in line:
+    if 'timeout' in line:
         errorCount = errorCount + 1
         if (config.settings['printAll']):
             errorList.append(line)
